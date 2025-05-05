@@ -60,5 +60,49 @@ In Simple words  when we create user level threads Operating System doesnot awar
 
 Kernel doesnot aware about user level threads
 
+
+
+IN Kernel level thread context swtiching happens like a process.
+
 ![ThreadsTypes](images/threadstypes.jpg)
+
+
+
+
+Multithreading Model
+
+
+![ThreadsTypes](images/threadstypes.jpg)
+
+
+
+
+
+![ThreadsTypes](images/many.jpg)
+
+![ThreadsTypes](images/one.jpg)
+
+![ThreadsTypes](images/manyone.jpg)
+
+
+
+
+
+
+1  Many To One   - Many User level threads  are Implementing/performed with One Kernel Level threads
+
+2  One To One   -  One User Level threads are Implementing/performed with One Kernel Level threads
+
+3 Many To Many   - Many User Level threads are Implementing/performed with Multiple Kernel Level threads
+
+
+
+
+
+
+
+
+
+
+
 
